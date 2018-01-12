@@ -12,3 +12,8 @@ server.on('connection', ws => {
     ws.send('Thanks for the message, kind stranger!');
   });
 });
+
+// Adding this stops the ECONNRESET error from throwing
+server.on('disconnect', ws => {
+  console.log('Client disconnected.');
+});
