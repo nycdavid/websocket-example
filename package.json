@@ -1,0 +1,11 @@
+{
+  "name": "websocket-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nycdavid/websocket-example.git",
+  "author": "David Ko <david.ko@pvtmethod.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^4.0.0"
+  }
+}
